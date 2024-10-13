@@ -19,7 +19,10 @@ class FilamentSqlFieldServiceProvider extends PackageServiceProvider
     {
         $package
             ->name(static::$name)
-            ->hasViews(static::$viewNamespace);
+            ->hasViews(static::$viewNamespace)
+            ->hasCommands([
+                Commands\DumpDatabaseSchemaCommand::class,
+            ]);
     }
 
     public function packageRegistered(): void {}
