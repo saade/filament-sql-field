@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Saade\FilamentSqlField\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentSqlFieldCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-sql-field';
 
     public $description = 'My command';
 
