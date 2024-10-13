@@ -1,1 +1,10 @@
-@import '../../vendor/filament/filament/resources/css/theme.css';
+.filament-sql-field {
+    .cm-editor {
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+
+    .cm-activeLine {
+        border-radius: 0.25rem;
+    }
+}
