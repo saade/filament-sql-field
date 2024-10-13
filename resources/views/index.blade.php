@@ -18,6 +18,6 @@
         schema: @js($getSchema())
     })"
 >
-    <div x-ref="editor"></div>
+    <div x-ref="editor" wire:ignore></div>
 </div>
 </x-filament-forms::field-wrapper>
